@@ -11,10 +11,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class EmailService {
-    private static final String API_KEY = System.getenv("BREVO_API_KEY") != null 
-    ? System.getenv("BREVO_API_KEY") 
-    : "VOTRE_CLE_API_ICI";
 
+    private static final String API_KEY        = "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";
     private static final String API_URL        = "https://api.brevo.com/v3/smtp/email";
     private static final String EXPEDITEUR     = "saymonkanne3@gmail.com";
     private static final String NOM_EXPEDITEUR = "ESITEC &#8212; Cahier de Texte";
