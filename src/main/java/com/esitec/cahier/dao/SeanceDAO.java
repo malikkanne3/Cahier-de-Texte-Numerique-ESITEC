@@ -199,3 +199,5 @@ public class SeanceDAO {
         return liste;
     }
 }
+
+// Amelioration gestion seances - Nathanael
