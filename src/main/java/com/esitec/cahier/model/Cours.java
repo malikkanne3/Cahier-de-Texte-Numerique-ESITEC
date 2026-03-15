@@ -57,3 +57,5 @@ public class Cours {
     @Override
     public String toString() { return intitule + " - " + classeNom; }
 }
+
+// Revision modele Cours - Nathanael
