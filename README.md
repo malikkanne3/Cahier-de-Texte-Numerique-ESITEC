@@ -142,3 +142,7 @@ mvn test
 ## 👨‍💻 Équipe
 
 Projet réalisé en équipe de 2 — ESITEC 2026
+
+## Equipe
+- Malik KANNE
+- Nathanael BALAMOU
