@@ -1,15 +1,20 @@
 package com.esitec.cahier.service;
 
-import java.io.*;
-import java.net.*;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class EmailService {
+    private static final String API_KEY = System.getenv("BREVO_API_KEY") != null 
+    ? System.getenv("BREVO_API_KEY") 
+    : "VOTRE_CLE_API_ICI";
 
-    private static final String API_KEY        = "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";
     private static final String API_URL        = "https://api.brevo.com/v3/smtp/email";
     private static final String EXPEDITEUR     = "saymonkanne3@gmail.com";
     private static final String NOM_EXPEDITEUR = "ESITEC &#8212; Cahier de Texte";
