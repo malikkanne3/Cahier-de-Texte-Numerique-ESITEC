@@ -128,3 +128,5 @@ public class CoursDAO {
         return classes;
     }
 }
+
+// Optimisation requetes SQL - Nathanael
